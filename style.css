@@ -8,7 +8,6 @@
   }
 * {
     box-sizing: border-box;
-    
   }
   html,
   body {
@@ -27,7 +26,7 @@
   .header__menu{
     display: flex;
     list-style: none;
-    margin-right: 200px;
+    margin-right: 200px;  
     
   }
 
@@ -39,6 +38,7 @@
     padding: 10px;
     cursor: pointer;
     color: #011e41;
+    align-items: center;
 }
 
 .nav{
@@ -61,24 +61,160 @@
     opacity: 50%;
 }
 
+.nav__menu-item.active{
+    opacity: 100%;
+    border-bottom: 2px solid white;
+}
+
 .btn{
     margin-right: 180px;
 }
 
-.btn-none{
+.btn--none{
     width: 200px;
     height: 75px;
     color: white;
     border-radius: 5px;
     border: 1px solid white;
     background-color: #011e41;
+    font-size: 1.25rem;
 }
 
-.btn-red{
+.btn--red{
     width: 200px;
     height: 75px;
     background-color: red;
     border-radius: 5px;
     border: 1px solid white;
     color: white;
+    font-size: 1.25rem;
+}
+
+.option{
+  background-color: #011e41;
+  
+}
+
+.option__selection{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  color: white; 
+  height: 75px;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+
+.option__selection-item{
+  padding: 10px;
+  align-items: end;
+  
+}
+
+.alert{
+  text-align: center;
+  align-items: center;
+  /* margin-top: 50px; */
+  height: 10px;
+}
+
+.ads{
+  display: flex;
+  justify-content: space-between;
+  background-color: #eaeef2;
+  align-items: center;
+  height: 100px;
+}
+
+.ads__left{
+  display: flex;
+  margin-left: 40px;
+}
+
+.ads__info{
+  margin-left: 10px;
+}
+
+.ads__gift{
+  border: 1px solid #011e41;
+  width: 91px;
+  border-radius: 2px;
+  padding: 3px;
+}
+
+.ads__right{
+  margin-right: 40px;
+  align-items: center;
+}
+/* note */
+.ads__right-price{
+  margin-right: 10px;
+  font-size: 1.25rem;
+  color: #011e41;
+  font-weight: 600;
+  padding-top: 3px;
+  
+}
+
+.btn--blue{
+  height: 44px;
+  width: 150px;
+  background-color: #011e41;
+  border-radius: 7px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.second-nav{
+  background-color: #dfe7ea;
+  display: flex;
+  justify-content: flex-end;
+  height: 50px;
+}
+.benefit-nav{
+  display: flex;
+  list-style: none;
+  margin-right: 50px;
+  align-items: center;
+}
+
+.benefit-nav__item{
+  padding: 10px;
+  font-weight: 700;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+}
+
+.menu__1{
+  font-weight: 700;
+  font-size: 30px;
+  color: #011e41;
+}
+
+.menu__tech{
+  opacity: 50%;
+  display: flex;
+}
+
+.menu__tech.special{
+  opacity: 100%;
+}
+
+.menu__tech-image{
+  margin-right: 10px;
+}
+
+.bg-content__bg{
+  width: 100%;
+  height: 700px;
+}
+
+.bg-content__sidep{
+  border: 3px solid white;
+  border-radius: 50%;
 }
