@@ -247,7 +247,7 @@ b{
 
 .select__dot{
   align-items: center;
-  background-color: #011e41;
+  background-color: gray;
   border: 1px solid white;
   border-radius: 50%;
   width: 10px;
@@ -257,10 +257,120 @@ b{
 }
 
 .select__dot.none{
-  background-color: white;
+  background: rgba(15, 28, 63, 0.125);
 }
 
+.left-arrow{
+  border: 2px solid white;
+  border-right: none; 
+  border-bottom: none;
+  width: 15px;
+  height: 15px;
+  transform: rotate(315deg);
+  position: absolute;
+  bottom: 300px;
+  left: 80px;
+}
 
+.left-circle{
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  bottom: 290px;
+  left: 67px;
+  position: absolute;
+}
 
+.right-arrow{
+  border: 2px solid white;
+  border-right: none; 
+  border-bottom: none;
+  width: 15px;
+  height: 15px;
+  transform: rotate(135deg);
+  position: absolute;
+  bottom: 300px;
+  right: 80px;
+}
 
+.right-circle{
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  bottom: 290px;
+  right: 67px;
+  position: absolute;
+}
+
+.ymal{
+  font-size: 30px;
+  align-items: center;
+  font-weight: 600;
+  text-align: center;
+}
+
+.product{
+  display: flex;
+}
+
+.product__detial{
+  width: 33.333333%;
+  height: 600px;
+}
+
+.product__img{
+  width: 100px;
+  height: 150px;
+  margin-left: 255px;
+}
+
+.product__describe{
+  margin: 20px 0 0 50px;
+  font-size: 17px;
+  
+}
+
+.product__text{
+  margin-left: 50px;
+  line-height: 2;
+  max-width: 70%;
+  height: 180px;
+}
+
+.product__price-num{
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.product__price{
+  margin-left: 50px;
+  line-height: 2.5;
+  margin-top: 50px;
+}
+
+.btn--atc{
+  width: 160px;
+  height: 44px;
+  background-color: #011e41;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 3px;
+  border: 1px solid #011e41;
+  font-size: 17px;
+}
+
+.btn--lm{
+  width: 150px;
+  height: 44px;
+  background-color: white;
+  color: #011e41;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 3px;
+  border: 1px solid #011e41;
+  font-size: 17px;
+}
 
